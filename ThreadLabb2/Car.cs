@@ -15,22 +15,15 @@ namespace ThreadLabb2
         }
         public void Move()
         {
-
-            for (int i = 0; i <= 14000; i++)
+            
+            for (int i = 0; i < 1000; i++)
             {
-                Thread.Sleep(140);
+                Random random = new Random(1 - 50);
                 
-
-
-                //if (i == 14000)
-                //{
-                //    Console.WriteLine("=================================");
-                //    Console.WriteLine($"140km! {Name} reached the goal!");
-                //    Console.WriteLine("=================================");
-                //    Environment.Exit(0);
-                //}
-
+                Console.WriteLine($@"{random}");
             }
+            
         }
+        
     }
 }
