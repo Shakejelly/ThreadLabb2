@@ -20,7 +20,7 @@
                {
                 Console.ReadLine();
                 Console.Clear();
-                Console.WriteLine($"{car1.Name} - Current distance: {Math.Round(car1.CurrentDistance * 100, 0)} m.");
+                Console.WriteLine($"{car1.Name} - Current distance: {Math.Round(car1.CurrentDistance * 100, 0)} km.");
                 Console.WriteLine($"{car2.Name} - Current distance: {Math.Round(car2.CurrentDistance * 100, 0)} km.");
                 Console.WriteLine($"{car3.Name} - Current distance: {Math.Round(car3.CurrentDistance * 100, 0)} km.");
                 Thread.Sleep(100);
